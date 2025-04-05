@@ -51,7 +51,7 @@ header span {
 
 .about-section {
     background-color: #ffffff;
-    margin: 100px 0px;
+    padding: 100px 0px;
     /* Стили для второй секции */
 }
 
@@ -79,14 +79,14 @@ select {
     font-weight: 400;
     font-size: 16px;
     list-style-image: url(assets/solar_map-arrow-up-bold.svg);
-    padding-left: 20px;
+    padding-left: 0 20px;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding-left: 0 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
@@ -137,13 +137,13 @@ table {
 }
 
 th, td {
-    padding: 12px 0px 12px 15px;
+    padding: 12px 15px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
     background-color: rgba(163, 167, 255, 0.3);
-    padding: 27px 0px;
+    padding: 26px 0px;
     /* Стили для футера */
 }
 
